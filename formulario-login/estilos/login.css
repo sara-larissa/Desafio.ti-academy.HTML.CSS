@@ -25,6 +25,19 @@ body{
     
 }
 
+.divLogin label{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1f104f;
+}
+
+
 #inputF{
 
     padding: 10px;
@@ -53,3 +66,5 @@ button:hover {
     background-color: deepskyblue;
 
 }
+
+
